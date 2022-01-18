@@ -1,0 +1,19 @@
+<section>
+<div>
+<h4 id="h_719663725131642430115269">The goal</h4>
+<p>The goal of this project is to make a simple website using HTML that will serve as a platform for future projects in the course V&Eacute;L608G. There are many ways to go about this but here I will describe the process I followed to create this website.</p>
+<h4>Create a Github account</h4>
+<p>The first step is to <a href="https://github.com/signup?user_email=&amp;source=form-home-signup"> <strong> create a GitHub account</strong></a>. If you already have an account you can skip this step.</p>
+<h4>Create a repository</h4>
+<p>The next step is to create a GitHub respository. For more information on repositories <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"> click here</a> <br />In short a repository contains all of your project's files and each file's revision history.</p>
+<p><img src="../images/new_repo.png" alt="new repo" /></p>
+</div>
+<div>
+<p>Give your repository a name and make it public.</p>
+<h4>Download or create your own HTML template</h4>
+<p>Next we will download a HTML template from <a title="HTML5up" href="#">LINK</a>.</p>
+<p><img src="#" alt="HTML5up theme" /></p>
+<p>The theme I used is called XXX</p>
+<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec ornare iaculis.</p>
+</div>
+</section>
