@@ -85,13 +85,16 @@
 								<p style="text-align:justify">Next move the folder with the downloaded template to a good place on your computer.&nbsp;</p>
 								<p style="text-align:justify">Then open the command line (called terminal on mac os) and change the working directory to the folder containing
 									 the template. This can be done with the command cd.</p>
-								<pre><code class="language-bash"> ~&gt; cd PATH/VEL608G</code></pre>
+								<pre><code class="prettyprint lang-bash"> ~/ cd PATH/VEL608G </code></pre>
 								<p style="text-align:justify">Next we use git from the command line to create a repository and commit all the files to the new repository.
 									 If you have never done this before you may have to sign in.&nbsp;In short a repository contains all of your project&#39;s files and each file&#39;s revision history.
 									 &nbsp;For more information on repositories <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"> click here</a>.</p>
-								<pre><code class="language-bash">~/Documents/Github/VEL608G&gt; git init
-									~/Documents/Github/VEL608G&gt; git add . 
-									~/Documents/Github/VEL608G&gt; git commit -m "initial commit"</code></pre>
+								<div class = "center">
+									<code class="prettyprint lang-bash" text-align = "">
+										~/Documents/Github/VEL608G git init <br>
+										~/Documents/Github/VEL608G git add .<br>
+										~/Documents/Github/VEL608G git commit -m "initial commit"</code>
+									</div>
 								<p style="text-align:justify">Here we are first creating a new repository, then adding all the files in the current working directory to the queue, and finally
 									 commiting them to the repository with a commit message. To learn more about working with a GitHub repository in the command line then take a look at <a href="#" id="git_cl">LINK</a></p>
 								<p style="text-align:justify">We can now open our account on <a href="#" id="github">github.com</a>&nbsp;and we should see the repository that we just created with the files from the HTML template.</p>
@@ -141,6 +144,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
 	</body>
 </html>
