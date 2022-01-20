@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: rgb(32, 32, 32);  /* was before #888 */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -112,7 +112,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(36, 36, 36);
 		line-height: 1.5em;
 	}
 
@@ -208,6 +208,24 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
+	}
+
+	/* For all <code> */
+	code {
+		font-family: monospace;
+		font-size: inherit;
+	}
+	
+	/* Code in text */
+	p > code,
+	li > code,
+	dd > code,
+	td > code {
+		background: #ffeff0;
+		word-wrap: break-word;
+		box-decoration-break: clone;
+		padding: .1rem .3rem .2rem;
+		border-radius: .2rem;
 	}
 
 /* Container */

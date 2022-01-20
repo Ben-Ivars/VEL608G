@@ -66,62 +66,69 @@
 
 				<!-- project -->
                     <section id="project" class="three">
-                        <div class="container" class="center">
-							<h3 style="text-align:justify">The goal</h3>
+                        <div class="container" style = text-align:justify>
+							<h3>The goal</h3>
+							<p>The goal of this project is to make a simple website using HTML that will serve as a platform for future projects
+								in the course VÉL608G. There are many ways to go about this but here I will describe the process I followed to create this website.</p>
 
-							<p style="text-align:justify">The goal of this project is to make a simple website using HTML that will serve as a platform for future projects
-								 in the course V&Eacute;L608G. There are many ways to go about this but here I will describe the process I followed to create this website.</p>
-
-							<h3 style="text-align:justify">Create a Github account</h3>
-								<p style="text-align:justify">The first step is to <a href="https://github.com/signup?user_email=&amp;source=form-home-signup"> 
+							<h3 style=>Create a Github account</h3>
+								<p>The first step is to <a href="https://github.com/signup?user_email=&amp;source=form-home-signup"> 
 									<strong> create a GitHub account</strong></a>. If you already have an account you can skip this step.</p>
 
-							<h3 style="text-align:justify">Download or create your own HTML template</h3>
-								<p style="text-align:justify">Next we will download a HTML template from <a href="#" title="HTML5up">LINK</a>.</p>
-								<p style="text-align:justify"><img alt="HTML5up theme" src="#" /></p>
-								<p style="text-align:justify">The theme I used is called <strong>Prologue</strong></p>
+							<h3>Download or create your own HTML template</h3>
+								<p>Next we will download a HTML template from <a href="https://html5up.net" title="HTML5up">HTML5UP</a>.</p>
+								<a class="image fit"><img src="/images/project_1/prologue.png" alt="" /></a>
+								<!-- <img alt="HTML5up theme" src="/images/project_1/prologue.png" class = "image-fit"/> -->
+								<p><br>The theme I used is called <strong>Prologue</strong></p>
 
-							<h3 style="text-align:justify">Upload the HTML template a Github repository&nbsp;</h3>
-								<p style="text-align:justify">Next move the folder with the downloaded template to a good place on your computer.&nbsp;</p>
-								<p style="text-align:justify">Then open the command line (called terminal on mac os) and change the working directory to the folder containing
-									 the template. This can be done with the command cd.</p>
-								<pre><code class="prettyprint lang-bash"> ~/ cd PATH/VEL608G </code></pre>
-								<p style="text-align:justify">Next we use git from the command line to create a repository and commit all the files to the new repository.
-									 If you have never done this before you may have to sign in.&nbsp;In short a repository contains all of your project&#39;s files and each file&#39;s revision history.
-									 &nbsp;For more information on repositories <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"> click here</a>.</p>
-								<div class = "center">
-									<code class="prettyprint lang-bash" text-align = "">
-										~/Documents/Github/VEL608G git init <br>
-										~/Documents/Github/VEL608G git add .<br>
-										~/Documents/Github/VEL608G git commit -m "initial commit"</code>
-									</div>
-								<p style="text-align:justify">Here we are first creating a new repository, then adding all the files in the current working directory to the queue, and finally
-									 commiting them to the repository with a commit message. To learn more about working with a GitHub repository in the command line then take a look at <a href="#" id="git_cl">LINK</a></p>
-								<p style="text-align:justify">We can now open our account on <a href="#" id="github">github.com</a>&nbsp;and we should see the repository that we just created with the files from the HTML template.</p>
+							<h3>Upload the HTML template a Github repository</h3>
+								<p>Next move the folder with the downloaded template to a good place on your computer. Then open the command line (called terminal on mac os) 
+									and change the working directory to the folder containing the template. This can be done with the command cd.</p>
+								<pre style = "text-align: center"><code class="prettyprint lang-bash"> ~/ cd PATH/VEL608G </code></pre>
+							<p><br>Next we use git from the command line to create a repository and commit all the files to the new repository.
+									If you have never done this before you may have to sign in. In short a repository contains all of your project's files and each file's revision history.
+									For more information on repositories <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"> click here</a>.</p>
+							<div class = "center">
+								<code class="prettyprint lang-bash" text-align = "">
+									~/Documents/Github/VEL608G git init <br>
+									~/Documents/Github/VEL608G git add .<br>
+									~/Documents/Github/VEL608G git commit -m "initial commit"
+									<br>
+								</code>
+									
+								</div>
+							<p><br>Here we are first creating a new repository, then adding all the files in the current working directory to the queue, and finally
+									commiting them to the repository with a commit message. To learn more about working with a GitHub repository in the command line then take a look at <a href="https://git-scm.com" id="git_cl">LINK</a></p>
+							<p>We can now open our account on <a href="https://github.com" id="github">GitHub</a> and we should see the repository that we just created with the files from the HTML template.</p>
+							<a class="image fit"><img src="/images/project_1/git_repo.png" alt="" /></a>
+							<p></p>
 
-							<h3 style="text-align:justify">Set up GitHub Pages</h3>
-								<p>Next, on GitHub, go to settings and under settings find pages.&nbsp;</p>
-								<p><img alt="" class="image-fit" id="git_pages" src="#" /></p>
-								<p style="text-align:justify">Here we will set the branch to main and the source folder to /root. In a about a minute we can open this url and we should see our template.</p>
+							<h3>Set up GitHub Pages</h3>
+								<p>Next, on GitHub, go to settings and under settings find pages.</p>
+								<a class="image fit"><img src="/images/project_1/git_pages.png" alt="" /></a>
+								<p><br>Here we will set the branch to main and the source folder to /root. In a about a minute we can open this url and we should see our template.</p>
 
-							<h3 style="text-align:justify">Open the folder in a code editor</h3>
-								<p>We now need to open the folder in a code editor so we can start work on our website. My editor of choice is VSCode but there are plenty of other editors to choose from.&nbsp;</p>
-								<p>Here we can see some files and some folders.&nbsp;</p>
+							<h3>Open the folder in a code editor</h3>
+								<p>We now need to open the folder in a code editor so we can start work on our website. My editor of choice is VSCode but there are plenty of other editors to choose from.</p>
+								<p>Here we can see some files and some folders.</p>
+								<a class="image fit"><img src="/images/project_1/p1_vs.png" alt="" /></a>
+								<p></p>
 								<ul>
 									<li>index.html - This is our websites homepage and the centrepiece of our project</li>
 									<li>/assets - Is a folder that contains all our stylesheets and the place where we should look to customise the appearance of our website</li>
 									<li>/images - Is a folder where we will keep all the images that we be on our website.</li>
 								</ul>
+								<p><em>Note: I have added some files so the file structure has slightly changed since I downloaded the template</em></p>
 
 							<h3>Local server</h3>
 
 								<p>It is very useful to have a local server on your machine to be able to see your website change live as you make edits. VSCode has many extensions that can help us 
-									out but the one I recommend is&nbsp;<strong>Brackets Extention Pack</strong>.</p>
-								<p>&nbsp;</p>
-								<p>Once we install the extention we can see the website change as we are editing the HTML files.&nbsp;</p>
+									out but the one I recommend is<strong>Brackets Extention Pack</strong>.</p>
+									<a class="image fit"><img src="/images/project_1/brackets.png" alt="" /></a>
+									<p><br>Once we install the extention we can see the website change as we are editing the HTML files.</p>
 
 								<h3>Next steps</h3>
-								<p>Since we are just editing static html pages we have alot of work ahead of us writing text, resizings images but adding css components and adding links between pages.&nbsp;</p>
+								<p>Since we are just editing static html pages we have alot of work ahead of us writing text, resizing images but adding css components and adding links between pages.</p>
 						</div>
 					</section>
 			</div>
