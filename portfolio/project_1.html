@@ -25,6 +25,8 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#project" id="project-link"><span class="icon solid fa-file">Project Information</span></a></li>
+								<li><a href="#my_ref" id="project-link"><span class="icon solid fa-info-circle">References</span></a></li>
+
 							</ul>
 						</nav>
 
@@ -85,23 +87,23 @@
 								<p>Next move the folder with the downloaded template to a good place on your computer. Then open the command line (called terminal on mac os) 
 									and change the working directory to the folder containing the template. This can be done with the command cd.</p>
 								<pre style = "text-align: center"><code class="prettyprint lang-bash"> ~/ cd PATH/VEL608G </code></pre>
-							<p><br>Next we use git from the command line to create a repository and commit all the files to the new repository.
+								<p><br>Next we use git from the command line to create a repository and commit all the files to the new repository.
 									If you have never done this before you may have to sign in. In short a repository contains all of your project's files and each file's revision history.
 									For more information on repositories <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"> click here</a>.</p>
-							<div class = "center">
-								<code class="prettyprint lang-bash" text-align = "">
-									~/Documents/Github/VEL608G git init <br>
-									~/Documents/Github/VEL608G git add .<br>
-									~/Documents/Github/VEL608G git commit -m "initial commit"
-									<br>
-								</code>
+									<div class = "center">
+										<code class="prettyprint lang-bash" text-align = "">
+											~/Documents/Github/VEL608G git init <br>
+											~/Documents/Github/VEL608G git add .<br>
+											~/Documents/Github/VEL608G git commit -m "initial commit"
+											<br>
+										</code>
 									
-								</div>
-							<p><br>Here we are first creating a new repository, then adding all the files in the current working directory to the queue, and finally
-									commiting them to the repository with a commit message. To learn more about working with a GitHub repository in the command line then take a look at <a href="https://git-scm.com" id="git_cl">LINK</a></p>
-							<p>We can now open our account on <a href="https://github.com" id="github">GitHub</a> and we should see the repository that we just created with the files from the HTML template.</p>
-							<a class="image fit"><img src="/images/project_1/git_repo.png" alt="" /></a>
-							<p></p>
+									</div>
+								<p><br>Here we are first creating a new repository, then adding all the files in the current working directory to the queue, and finally
+										commiting them to the repository with a commit message. To learn more about working with a GitHub repository in the command line then take a look at <a href="https://git-scm.com" id="git_cl">LINK</a></p>
+								<p>We can now open our account on <a href="https://github.com" id="github">GitHub</a> and we should see the repository that we just created with the files from the HTML template.</p>
+								<a class="image fit"><img src="/images/project_1/git_repo.png" alt="" /></a>
+								<p></p>
 
 							<h3>Set up GitHub Pages</h3>
 								<p>Next, on GitHub, go to settings and under settings find pages.</p>
@@ -125,10 +127,29 @@
 								<p>It is very useful to have a local server on your machine to be able to see your website change live as you make edits. VSCode has many extensions that can help us 
 									out but the one I recommend is<strong>Brackets Extention Pack</strong>.</p>
 									<a class="image fit"><img src="/images/project_1/brackets.png" alt="" /></a>
-									<p><br>Once we install the extention we can see the website change as we are editing the HTML files.</p>
+								<p><br>Once we install the extention we can see the website change as we are editing the HTML files.</p>
 
-								<h3>Next steps</h3>
+							<h3>Next steps</h3>
 								<p>Since we are just editing static html pages we have alot of work ahead of us writing text, resizing images but adding css components and adding links between pages.</p>
+							
+							<h3>Tips and tricks</h3>
+								<ul>
+									<li>Use a WYSIWYG editor for example: <a href = "https://onlinehtmleditor.dev">CKEditor</a></li>
+									<li>Look for VSCode extensions that make your life easier</li>
+									<li>Learn the basic HTML tags (div,p,h1,h2,h3,br,a,...)</li>
+									<li>Commit to Git regularly so when you mess up your site you can recover it</li>
+									<li>If files are cluttering up your repo then add them to .gitignore and then Git will skip them</li>
+								</ul>
+
+							<h3 id = "my_ref">References</h3>
+								<ul>
+									<li><a href = "https://github.com/googlearchive/code-prettify">Code block prettify</a></li>
+									<li><a href = "https://mdigi.tools/solid-color-image-generator/">Free solid color images</a></li>
+									<li><a href = "https://convert-my-image.com/ImageConverter">Image resize</a></li>
+									<li><a href = "https://gist.github.com/ZiKT1229/5935a10ce818ea7b851ea85ecf55b4da">Snake game</a></li>
+									<li><a href = "https://html5up.net">Prologue HTML template</a></li>
+									<li><a href = "https://pngset.com/download-free-png-ogcar">Picture for project 1</a></li>
+								</ul>
 						</div>
 					</section>
 			</div>
