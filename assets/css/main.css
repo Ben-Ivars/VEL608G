@@ -1785,8 +1785,16 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 90%;
 		}
+		.image.etsy {
+			display: inline-block;
+			align-items: center;
+			width:60%;
+			margin: 0 0 2em 0;
+
+		}
+
 
 		.image.about {
 			display: block;
