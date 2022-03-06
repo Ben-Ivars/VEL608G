@@ -31,6 +31,8 @@
 					<li><a href="#vinilskurdur" id="project-link"><span
 								class="icon solid fa-cut">Vínilskurður</span></a>
 					</li>
+					<li><a href="#kerf" id="project-link"><span class="icon solid fa-info-circle">KERF</span></a>
+					</li>
 
 				</ul>
 			</nav>
@@ -133,8 +135,10 @@
 				<p>Þar sem við erum að vinna með laser skera er mikilvægt að gæta þess að gert sé ráð fyrir KERF.
 				</p>
 				<!-- TODO fix link -->
-				<p>Hér má sjá ýtralegri greinagerð um hvernig kerf var fundið fyrir þetta verkefni. LINK
-					Í grófum dráttum þýðir þetta að laserinn kerf eftir miðri línu og tekur því smá efni sitthvoru
+				<p>Hér má sjá ýtralegri greinagerð um hvernig kerf var fundið fyrir þetta verkefni --> <a
+						href="#kerf">LINK</a>. Í grófum dráttum þýðir þetta að laserinn kerf eftir miðri línu og tekur
+					því
+					smá efni sitthvoru
 					megin
 					við þá línu. Til þess að koma í veg fyrir vandræði varðandi kerf skulum við fara í manufacture í
 					fusion. Förum inn í setup og veljum einhvern toppflöt sem z axis í orientation og förum svo í
@@ -144,7 +148,7 @@
 				<p>Þar veljum við verkfæri (e. tool) og búum til nýjan laser cutter</p>
 				<p><a class="image fit"><img src="../images/project_2/v1_e.png"></a></p>
 
-				<p>og stillum þar kerf sem 0.01809 mm og veljum hann svo sem tool. Förum nú aftur í 2D PROFILE
+				<p>og stillum þar kerf sem 0.1809 mm og veljum hann svo sem tool. Förum nú aftur í 2D PROFILE
 					valmyndina og veljum alla hlutina okkar sem "Contour selection. Nú getum við hægri smellt á
 					profilið
 					sem við vorum að búa til og staðfest að útlinan sem laserinn sker er offset um kerfið.</p>
@@ -267,6 +271,40 @@
 				<ul>
 					<li><a href="https://www.svgrepo.com" target="_blank" rel="noopener noreferrer">SVGRepo</a></li>
 				</ul>
+			</div>
+		</section>
+		<section id="kerf" class="three">
+			<div class="container" style=text-align:justify>
+				<h2>KERF - Hópverkefni</h2>
+				<p>Einn hluti verkefnisins var að vinna nokkrir saman í hóp og er svokallaða KERF prófun á laserskeran
+					sem við mundum svo nota í verkefnninu. KERF er skilgreint sem breiddinn á efninu sem er fjarlægt við
+					skurð, í okkar tilfelli laserskurð. Það er einfalt að hugsa sér hjólsög og blað og þegar við skerum
+					eftir merkingu sem við teiknum á plötu þá hverfur merkingin. Það er vegna þess að blaðið brýtur upp
+					efnið og skurðurinn hefur breidd, sú breidd er kölluð KERF. KERF er mjög mikilvægt þegar er verið að
+					vinna með pressfit model þar sem skekkjumörk eru mjög lítil. Laserskerinn sker eftir línu sem við
+					teiknum og vegna KERF þurfum við því að offsetta hana um einhverja fasta stærð. Þetta er einfalt að
+					gera í Fusion360 undir Manufacture flipanum og er farið nánar í það ferli hér fyrir ofan.</p>
+				<p>Nú skiljum við hvað kerf er en hvernig eigum við eiginlega að mæla það?</p>
+				<p>Við byrjum á að opna Fusion360 og teikna ferhyrning sem er 100 mm á breidd og 10mm á hæð og skiptum
+					honum upp í 10 einingar með loðréttum stirkum. Ef Við myndum endurtaka leikinn og gera aftur KERF
+					mælingu myndum við velja hæð 20mm þar sem það varð mjög ruglandi að einingarnar voru allar með sömu
+					breidd og hæð. Næst vinnum við teikninguna í Inkscape og færum yfir á laserskeran. Eftir að við
+					fengum sammþykkt kennanra völdum við 4mm krossviðsplötu og höfum skurðinn. Við fjarlægðum síðan
+					plötuna og einingarnar sem við skárum út og fluttum þær yfir á borð. Mikilvægt að er að uppröðun
+					eininga helst sú sama og einnig að sami flötur snýr upp. (bæði í uppröðun á borði og í skurði)</p>
+				<p><a class="image fit"><img src="../images/project_2/kerf1.jpg"></a></p>
+				<p>Hér á hægri hönd er einfalt að sjá hversu mikil áhrif KERF getur haft. Við mælum nú bilið merkt á
+					mynd fyrir ofan og deilum með földa skurða (11 skurðir) og vitum því meðalbreiddina á þessum skurðum
+					i.e. KERF-ið. </p>
+				<p><a class="image fit"><img src="../images/project_2/kerf1.jpg"></a></p>
+				<p>Mælda kerfið okkar er því <strong>0.199 mm</strong> sem er við efri mörk á því sem við vorum að sjá
+					hjá samnemundum okkar.</p>
+				<h3>Verkefnið mitt</h3>
+				<p>Þar sem 4 mm krossviðurinn var búin þegar það kom að því að skera minn hlut endaði ég á að nota 3 mm
+					akríl. Því er KERF gildið sem ég notaði ekki 0.199 mm heldur 0.1809 mm sem annar samnemandi mæli og
+					notaði með góðum árangri í akrílskurð.</p>
+
+
 			</div>
 		</section>
 	</div>

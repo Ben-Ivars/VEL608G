@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Verkefni 2</title>
+	<title>Verkefni 3</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
@@ -64,20 +64,20 @@
 		<!-- 3D prentun -->
 		<section id="triprentun" class="three">
 			<div class="container" style=text-align:justify>
-				<h2>Laserskurður</h2>
+				<h2>3D prentun</h2>
 				<h3>Verkefnalýsing</h3>
 				<p>Hannaðu módel fyrir 3D prentun sem ekki væri hægt að framkvæma með frádráttar framleiðslu (addative
 					vs subtractive). Prentaðu hlutinn (max 100g af plasti skv. slicer).</p>
 				<h3>Markmið</h3>
-				<p>Ég hef alltaf verið á leiðinni að panta mér stand fyrir apple úrið mitt. Ég er búin að vera í þessum
+				<p>Ég hef alltaf verið á leiðinni að kaupa mér stand fyrir apple úrið mitt. Ég er búin að vera í þessum
 					pælingum síðan að ég keypti úrið fyrir um 6 árum síðan. Þannig nú er komið að því að hanna sjálfur
 					stand sem ég er sáttur með að hafa á náttborðinu mínu.</p>
 				<h3>Fyrirmynd</h3>
-				<p>Ég er með einn ákveðinn stand sem ég er að herma eftir en ég fylgi þeirri hugmyndafærði sem ég hef
-					séð aður í svonu stöndum. Ég ætla að hafa stand sem getur tekið á móti hleðslutækinu sem ég á nú
-					þegar og haldið úrinu upp í halla með seglinum sem er í hleðslutækinu. Ég gerði prófun á styrk
-					segulsins í hleðslutækinu og hann virðist vera nægilega mikill til þess að halda úrinu uppi í hvaða
-					stöðu sem er. Ég for því og byrjaði að rissa upp hugmynd um útlit á rúðustrikað blað.
+				<p>Ég er ekki með einn ákveðinn stand sem ég er að herma eftir en ég fylgi þeirri hugmyndafærði sem ég
+					hef séð aður í svonu stöndum a netinu. Ég ætla að hafa stand sem getur tekið á móti hleðslutækinu
+					sem ég á nú þegar og haldið úrinu upp í halla með seglinum sem er í hleðslutækinu. Ég gerði prófun á
+					styrk segulsins í hleðslutækinu og hann virðist vera nægilega mikill til þess að halda úrinu uppi í
+					hvaða stöðu sem er. Ég for því og byrjaði að rissa upp hugmynd um útlit á rúðustrikað blað.
 				</p>
 				<p><a class="image fit"><img src="../images/project_3/abc.png"></a></p>
 				<p>Þessi grunn hugmynd uppfyllir kröfur verkefnisins um að ekki sé hægt að framleiða með frádráttar
@@ -92,17 +92,48 @@
 					skífumáli og skilgreindi þær stærðir sem parametra. Ég fer ekki nánar út í hönnunarferli í Fusion
 					360 hér í þessari grein en endilega skoðið <a href="project_2.html#fusion">verkefni 2</a> fyrir
 					nánari lýsingu á því ferli. </p>
-				<p><a class="image fit"><img src="../images/project_3/abc.png"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_maeling.jpg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_fusion.png"></a></p>
 				<h3>Export</h3>
 				<p></p>
 				<h3>Prusa Slicer</h3>
-				<p></p>
+				<p>Opnum nú prusa slicer forritð sem er hlaðið inn á tölvuna hjá Prusa prenturunum í VRIII. Hlöðum upp
+					skráinni okkar frá Fusion360. Veljum síðan "Filament" sem "Generic PLA" og "Printer" sem "Orginal
+					Prusa i3 MK3S / MK3S+". Veljum síðan flöt sem hentar vel sem botnflöt í okkar tilviki þá er botninn
+					gott val. Næst veljum við "infill" sem 15%, infill er hversu mikið rúmmál skal fylla með plasti.
+					Talan 15% var valinn út frá raðleggingum frá samnemanda sem hefur meiri reynslu en ég í 3D prentun.
+					Seinasta sem þarf að stilla eru undirstöður, við höfum svokallað "overhang" á hringnum sem heldur
+					hleðslutækinu. Veljum því "supports on body & build plate" og smellum á "Slice". Við sjáum nú á
+					skjánum render af hvernig prentið okkar mun líta út. Við sjáum einnig undirstöður og allt virðist
+					vera í lagi. Ég gleymdi því miður að taka mynd þar sem ég er búin að velja undirstöður en hér fyrir
+					neðan er hægt að sjá hönnunina í Prusa forritinu.
+				</p>
+				<p><a class="image fit"><img src="../images/project_3/3d_b.jpeg"></a></p>
+				<p>Eitt af skorðum verkefnisins var að nota ekki meiri en 100g af plasti. Við skoðum því í Prusa Slicer
+					forritinu útreikning á rúmmáli sem þarf af plasti til þess að klára prentunina. Á mynd hér fyrir
+					neðan sjáum við upplýsingar um prentið okkar. Ég fletti upp eðlismassa "Generic PLA" og fann það til
+					að vera 1.04 g/cm^3. Einföld stærðfræði gefur okkur að prentið okkar notaði 49.6 g af plasti og því
+					vel innan skorða verkefnisins.</p>
+				<p><a class="image fit"><img src="../images/project_3/3d_a.jpg"></a></p>
+				<p>Lokaskref í Prusa forritinu er að sækja SD kort úr viðeigandi 3D prentara og exporta úr forritinu
+					yfir á SD kortið. Við tökum svo SD kortið og stingum því í prentarann. Ég er heppinn að ég vil
+					prenta með svörtu Generic PLA og það er nú þegar hlaðið í prentarann. Notum svarta hnappinn á
+					prentaranum og veljum réttu skrá og veljum start.</p>
 				<h3>Prentið komið í gang</h3>
-				<p></p>
+				<p>Nú er prentið komið í gang og það ætti að taka 2 klst. og 19 min. Leyfum nú prentaranum að ganga og
+					kíkjum á hann af og til til þess að passa að allt sé í lagi. </p>
+				<p><a class="image fit"><img src="../images/project_3/3d_c.jpeg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_d.jpeg"></a></p>
+				<p>Prentið gékk vel og rúmmlega 2 klst. seinna erum við kominn með hlutinn okkar í hendur.</p>
 				<h3>Niðurstaða</h3>
-				<p>def</p>
-				<p><a class="image fit"><img src="../images/project_3/abc.png"></a></p>
-
+				<p>Ég er mjög sáttur með niðurstöðuna. Mælingar voru innan skekkjumarka og hleðslutækinn smell passar og
+					helst á sínumn stað þegar úrið er sett á. </p>
+				<p><a class="image fit"><img src="../images/project_3/3d_e.jpeg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_f.jpeg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_g.jpeg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_h.jpeg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/3d_i.jpeg"></a></p>
+				<p>Mér fannst þetta mjög skemmtilegt verkefni og mun klárlega prenta fleiri hluti í framtíðinni.</p>
 			</div>
 		</section>
 
@@ -115,18 +146,31 @@
 				<h3>Markmið</h3>
 				<p>Eins og sést á verkefnalýsingunni á þetta verkefni ekki að vera flókið. Mín markmið varðandi þetta
 					verkefni er að profa tæki sem ég nota dags daglega á annan hátt.</p>
-
-				<h3>abc</h3>
-				<p>def</p>
-
+				<h3>Polycam</h3>
+				<p>Ég stökk yfir á App Store í símanum mínum og byrjaði að skoða hvaða ókeypis öpp væri í boði til þess
+					að geta skanna hlut og einnig nýta LiDAR skýnjarn sem er á símanum mínum. Appið sem mér fannst líta
+					best út heitir <a href="https://apps.apple.com/is/app/polycam-lidar-3d-scanner/id1532482376"
+						target="_blank" rel="noopener noreferrer">Polycam</a>. Ég for síðan og prófaði að skanna nokkra
+					hluti.</p>
+				<h3>Flaska</h3>
+				<p>Fyrsta sem ég profaði að skanna var vínflaska sem ég var með í herberginu mínu.</p>
+				<p><a class="image fit"><img src="../images/project_3/scanwine.jpg"></a></p>
+				<p>Þetta gékk ekki svo vel og ég held að LiDAR skynjarinn á símanum mínu á erfitt með að skanna litla
+					hluti.</p>
+				<h3>Bíll</h3>
+				<p>Eftir að hafa profað nokkra litla hluti í viðbot inn í herberginu mínu ákvað ég að fara út og prófa
+					að skanna stærri hlut. </p>
+				<p><a class="image fit"><img src="../images/project_3/scanbill_a.jpg"></a></p>
+				<p><a class="image fit"><img src="../images/project_3/scanbill_b.jpg"></a></p>
+				<p>Þetta gékk betur en það voru ennþá svæði sem náðust ekki að skanna fullkomlega.</p>
 				<h3>Niðurstaða</h3>
-				<p>Mér fannst þetta einfalt og skemmtilegt verkefni. Aron Björn aðstoðaði mig við að læra á vínilskeran
-					og því var það alls ekki erfitt. Það var skemmtilegt að læra betur á hvernig skal undirbúa myndir í
-					Inkscape.</p>
-				<h3 id="my_ref">References</h3>
-				<ul>
-					<li><a href="https://www.svgrepo.com" target="_blank" rel="noopener noreferrer">SVGRepo</a></li>
-				</ul>
+				<p>Þetta var einfaldur og skemmtilgur liður í þessu verkefni og er augljóst að það er hægt að nota tæki
+					sem við höfum flest öll aðgang að í nýjum tilgangi. Fyrir nokkra dollara er hægt að kaupa PRO aðgang
+					að Polycam þar er hægt að exporta skanninu yfir í allskonar format t.d. DXF og STL sem hægt er að
+					lesa í Fusion360. Þegar skannið er komið inn í Fusion360 er þá hægt að vinna það ferkar og laga
+					þessa galla í skanninu eins og bjöguninn í vínflöskunni og hólan í bílnum. Einnig væri hægt að taka
+					úr Fusion360 og prenta út hlut sem 3D prentara.</p>
+				<p><a class="image fit"><img src="../images/project_3/ss.jpeg"></a></p>
 			</div>
 		</section>
 	</div>
